@@ -1,0 +1,476 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Wind\Dropbox\Engsci 3rd year fall\ECE352\Project\Project\Project\processor_v3_verilog\processor_v3_verilog
+vALU
+Z1 !s100 jTgXVz;zR1z3fW19cH>K02
+Z2 IiL75DQnF6ONdlWcC>6dm71
+Z3 V3Y[hlz[=jB>fd]2:^hA@I1
+Z4 dC:\Users\Wind\Dropbox\Engsci 3rd year fall\ECE352\Project\Project\Project\processor_v3_verilog\processor_v3_verilog
+Z5 w1193630888
+Z6 8ALU.v
+Z7 FALU.v
+L0 23
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|ALU.v|
+Z10 o-vlog01compat -work work -O0
+Z11 n@a@l@u
+Z12 !s108 1385443832.458000
+Z13 !s107 ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vchooseHEXs
+Z14 !s100 Iin`CHEnQeIKDVc;[l3<N3
+Z15 IOEa<5^mEGNN1Y?OzXHFd`2
+Z16 VXgS=enm4m:Gcc7;9E8VK03
+R4
+Z17 w1383465514
+Z18 8HEX.v
+Z19 FHEX.v
+L0 29
+R8
+r1
+31
+Z20 !s108 1385443835.334000
+Z21 !s107 HEX.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|HEX.v|
+R10
+Z23 nchoose@h@e@xs
+!i10b 1
+!s85 0
+!s101 -O0
+vCounter
+Z24 !s100 Jc4dg7e[1ncXCi>4Fm>lL0
+Z25 I4TlPCZ>jaKz<a_k9Wg8CL0
+Z26 V^VjLSz?SK;?BOf97]IJz73
+R4
+Z27 w1384666816
+Z28 8Counter.v
+Z29 FCounter.v
+L0 4
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-vlog01compat|-work|work|Counter.v|
+R10
+Z31 n@counter
+!i10b 1
+!s85 0
+Z32 !s108 1385443838.923000
+Z33 !s107 Counter.v|
+!s101 -O0
+vDataMemory
+Z34 I4gSn@@CWDzD@DTeF8DSCm1
+Z35 VO^hHb4`@5QZ9K=_^iOl8<0
+R4
+Z36 w1385443821
+Z37 8DataMemory.v
+Z38 FDataMemory.v
+L0 39
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-vlog01compat|-work|work|DataMemory.v|
+R10
+Z40 n@data@memory
+Z41 !s100 @45ja7:9jGhPG_ohEhhHh0
+Z42 !s108 1385443831.332000
+Z43 !s107 DataMemory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDualMem
+Z44 I7ZL>n_14YK_4PecLeMWHR3
+Z45 VnRCYP@[niQ<X4d6F<47N:3
+R4
+Z46 w1385443785
+Z47 8DualMem.v
+Z48 FDualMem.v
+L0 39
+R8
+r1
+31
+Z49 !s90 -reportprogress|300|-vlog01compat|-work|work|DualMem.v|
+R10
+Z50 n@dual@mem
+Z51 !s100 ZmOi1`jfMn5b_8^Ff1S_81
+Z52 !s108 1385443830.877000
+Z53 !s107 DualMem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFSM
+Z54 !s100 ^n96ILcJc0FZNbb52OM2<0
+Z55 IAD9bIe=^eNm?elG7349NN3
+Z56 VFcB^N;;=fWBKjH2fQ0;@;0
+R4
+Z57 w1385094263
+Z58 8FSM.v
+Z59 FFSM.v
+L0 20
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-vlog01compat|-work|work|FSM.v|
+R10
+Z61 n@f@s@m
+Z62 !s108 1385443835.937000
+Z63 !s107 FSM.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vHEX
+Z64 !s100 o;9G5ML[i4`lO0Zz`@nDH0
+Z65 II[lHo1jED`9mfm<HEd0?J2
+Z66 VLkAFeEBFkXI_H=SgID8WI3
+R4
+R17
+R18
+R19
+L0 97
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z67 n@h@e@x
+!i10b 1
+!s85 0
+!s101 -O0
+vHEXs
+Z68 !s100 djbTnZnPLOhlEDzd^194J3
+Z69 IA_G>algcWN>Mi69_BkRCP2
+Z70 VNHkNE@=G[QB71T6h<<Q@>3
+R4
+R17
+R18
+R19
+L0 59
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z71 n@h@e@xs
+!i10b 1
+!s85 0
+!s101 -O0
+vmemory
+Z72 !s100 ^G9KX?W8ldca5dD3DnZN`3
+Z73 IW@kS`4W^S87R]gjg@KbHc2
+Z74 V514`fhRceB8=k[l1=nLk^1
+R4
+Z75 w1383099620
+Z76 8memory.v
+Z77 Fmemory.v
+L0 19
+R8
+r1
+31
+Z78 !s90 -reportprogress|300|-vlog01compat|-work|work|memory.v|
+R10
+Z79 !s108 1385443830.334000
+Z80 !s107 memory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmulticycle
+Z81 !s100 5D^<ZBOallhk?JK3CE^lk2
+Z82 ITIFMV9m`Pd>L46VKhaALN1
+Z83 VE34dI_;7Q_L1BDl8oZnnk0
+R4
+Z84 w1385012613
+Z85 8multicycle.v
+Z86 Fmulticycle.v
+L0 27
+R8
+r1
+31
+Z87 !s90 -reportprogress|300|-vlog01compat|-work|work|multicycle.v|
+R10
+Z88 !s108 1385443828.346000
+Z89 !s107 multicycle.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmulticycle_tb
+Z90 !s100 C7E1JP27IHa0MV^7ee8IV3
+Z91 IWb2iR7_k1Ihb]>8^j^`NZ2
+Z92 V]:T2ANEgI5<Ae;:W0fMaQ1
+R4
+Z93 w1349489968
+Z94 8multicycle_tb.v
+Z95 Fmulticycle_tb.v
+L0 10
+R8
+r1
+31
+Z96 !s90 -reportprogress|300|-vlog01compat|-work|work|multicycle_tb.v|
+R10
+Z97 !s108 1385443836.338000
+Z98 !s107 multicycle_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2to1_2bit
+Z99 !s100 kfOFi^WEiDfI0<7kk?e_M1
+Z100 ISZZHn^l]Cz3fSb0I?G@NG2
+Z101 V_@5e4LJ]zDaMTgcOi@AEO1
+R4
+Z102 w1383097730
+Z103 8mux2to1_2bit.v
+Z104 Fmux2to1_2bit.v
+L0 3
+R8
+r1
+31
+Z105 !s90 -reportprogress|300|-vlog01compat|-work|work|mux2to1_2bit.v|
+R10
+Z106 !s108 1385443829.400000
+Z107 !s107 mux2to1_2bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2to1_8bit
+Z108 !s100 Ybjk1B`7<HYFJVLBbcd5F2
+Z109 I?mSSA:Iz9mNB;UQD7zUkY2
+Z110 VXO^?gQR5Gg]ZYdJkb>Q<`2
+R4
+Z111 w1383099014
+Z112 8mux2to1_8bit.v
+Z113 Fmux2to1_8bit.v
+L0 3
+R8
+r1
+31
+Z114 !s90 -reportprogress|300|-vlog01compat|-work|work|mux2to1_8bit.v|
+R10
+Z115 !s108 1385443828.772000
+Z116 !s107 mux2to1_8bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux5to1_8bit
+Z117 !s100 Y`JCI3]<K_3aV<Cm:nOg=2
+Z118 I[Gh:M4:cJNYLOZgTTI8]W0
+Z119 VTfD41OnzbmC5Kf>Ez>h9A1
+R4
+R102
+Z120 8mux5to1_8bit.v
+Z121 Fmux5to1_8bit.v
+L0 3
+R8
+r1
+31
+Z122 !s90 -reportprogress|300|-vlog01compat|-work|work|mux5to1_8bit.v|
+R10
+Z123 !s108 1385443829.888000
+Z124 !s107 mux5to1_8bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister_1bit
+Z125 !s100 1m`:145z=KN_1581o]J0R3
+Z126 IWO6UcN8USb5]fNGZjo@b53
+Z127 VUJ6?AanRhSnSCbeB8FNoD2
+R4
+Z128 w1384664525
+Z129 8register_1bit.v
+Z130 Fregister_1bit.v
+L0 4
+R8
+r1
+31
+Z131 !s90 -reportprogress|300|-vlog01compat|-work|work|register_1bit.v|
+R10
+Z132 !s108 1385443832.044000
+Z133 !s107 register_1bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister_8bit
+Z134 !s100 ^cQ@NYl9Ve9n7m3Ma=HHR1
+Z135 ILGkb]bd72@ad>hREN<[^>1
+Z136 VGgJmSiLRza58Lcci@hI?13
+R4
+Z137 w1384369656
+Z138 8register_8bit.v
+Z139 Fregister_8bit.v
+L0 4
+R8
+r1
+31
+Z140 !s90 -reportprogress|300|-vlog01compat|-work|work|register_8bit.v|
+R10
+Z141 !s108 1385443831.665000
+Z142 !s107 register_8bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister_8bit_special
+!i10b 1
+Z143 !s100 >nZZFGl@W@baT10S5SE3e1
+Z144 I;NObg1hY1kVmI@;N_UCN`1
+Z145 Ve@0DkPJ<UKkejOSz1V<@`1
+R4
+Z146 w1384369804
+Z147 8register_8bit_special.v
+Z148 Fregister_8bit_special.v
+L0 4
+R8
+r1
+!s85 0
+31
+!s108 1385443839.463000
+!s107 register_8bit_special.v|
+Z149 !s90 -reportprogress|300|-vlog01compat|-work|work|register_8bit_special.v|
+!s101 -O0
+R10
+vRF
+Z150 !s100 3]h`YcCUmBmc0fGF9PVV82
+Z151 Ii3ClES5HHL<Ah1SP7_@Jh3
+Z152 VCMXIOZ`Uk`oGD<;<^hbk@0
+R4
+Z153 w1181128258
+8RF.v
+FRF.v
+L0 26
+R8
+r1
+31
+Z154 !s90 -reportprogress|300|-vlog01compat|-work|work|RF.v|
+R10
+n@r@f
+Z155 !s108 1385443832.974000
+Z156 !s107 RF.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSequential_1
+Z157 !s100 ae@zmCzdP6Mlk;G0f`;CP1
+Z158 IOfF8COXc?9a0==01iS^RE3
+Z159 VTNg;DVRR<4HmmDnFm0f2?2
+R4
+Z160 w1384326424
+Z161 8Sequential_1.v
+Z162 FSequential_1.v
+L0 1
+R8
+r1
+31
+Z163 !s90 -reportprogress|300|-vlog01compat|-work|work|Sequential_1.v|
+R10
+Z164 n@sequential_1
+Z165 !s108 1385443836.805000
+Z166 !s107 Sequential_1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSequential_2
+Z167 !s100 >FEVc?maSoC[U8Ja6c_Z41
+Z168 Ib_m<>gPG5M]Zf9D>8b?PM2
+Z169 Vz@2iZT`kl=SbScTG_O1zM0
+R4
+Z170 w1384271160
+Z171 8Sequential_2.v
+Z172 FSequential_2.v
+L0 1
+R8
+r1
+31
+Z173 !s90 -reportprogress|300|-vlog01compat|-work|work|Sequential_2.v|
+R10
+Z174 n@sequential_2
+Z175 !s108 1385443837.250000
+Z176 !s107 Sequential_2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSequential_3
+Z177 !s100 M@X9k6[<QG1zzUT>4gK[N2
+Z178 IOKG@g8[9hLU>N>6ME]W7T3
+Z179 V76;E?8TD5kkW2f?@N9CXe0
+R4
+Z180 w1384324798
+Z181 8Sequential_3.v
+Z182 FSequential_3.v
+L0 1
+R8
+r1
+31
+Z183 !s90 -reportprogress|300|-vlog01compat|-work|work|Sequential_3.v|
+R10
+Z184 n@sequential_3
+Z185 !s108 1385443838.033000
+Z186 !s107 Sequential_3.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSequential_4
+Z187 !s100 QX;;23g;<3]KQ3QA>Bec^3
+Z188 IIniCVTSf;4nhg7XNOXo_n0
+Z189 Vzh?hEUedCXdH74Q[XbzPe2
+R4
+Z190 w1384323078
+Z191 8Sequential_4.v
+Z192 FSequential_4.v
+L0 1
+R8
+r1
+31
+Z193 !s90 -reportprogress|300|-vlog01compat|-work|work|Sequential_4.v|
+R10
+Z194 n@sequential_4
+Z195 !s108 1385443838.417000
+Z196 !s107 Sequential_4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsExtend
+Z197 !s100 L_ciMG_i:3XBQkIAUGC6I0
+Z198 IEXh>Zk6XY^UZ[EkbUzaZM3
+Z199 VzTRPino>kAHC?5Tk5OgO43
+R4
+Z200 w1181129338
+Z201 8extend.v
+Z202 Fextend.v
+L0 38
+R8
+r1
+31
+Z203 !s108 1385443834.554000
+Z204 !s107 extend.v|
+Z205 !s90 -reportprogress|300|-vlog01compat|-work|work|extend.v|
+R10
+Z206 ns@extend
+!i10b 1
+!s85 0
+!s101 -O0
+vzExtend
+Z207 !s100 WdodU8ScgPbPdh6cGd3iX0
+Z208 I3e^7HiLZXG4fSBXIcIWzb1
+Z209 VCn^A[4z<Yk8Mh>2CFCd4]3
+R4
+R200
+R201
+R202
+L0 29
+R8
+r1
+31
+R203
+R204
+R205
+R10
+Z210 nz@extend
+!i10b 1
+!s85 0
+!s101 -O0

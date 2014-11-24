@@ -1,0 +1,9 @@
+module Sequential_4(
+	Instr,
+	RFWrite
+);
+
+	input	[3:0]Instr;
+	output	RFWrite;
+
+endmodule

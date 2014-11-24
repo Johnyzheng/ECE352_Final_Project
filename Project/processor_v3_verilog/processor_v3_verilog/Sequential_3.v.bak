@@ -1,0 +1,17 @@
+module Sequential_3(
+	Instr,
+	ALU1,
+	ALU2,
+	ALUOp,
+	MemRead,
+	MemWrite,
+	R1R2Load,
+	PCSel,
+	WBin,
+	ALU3
+);
+
+	input	[3:0]Instr;
+	output	ALU1,ALU2,ALUOp,MemRead,MemWrite,R1R2Load,PCSel,WBin,ALU3;
+
+endmodule

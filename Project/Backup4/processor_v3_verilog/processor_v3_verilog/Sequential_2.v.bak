@@ -1,0 +1,13 @@
+module Sequential_2
+(
+	Instr,
+	PCWrite,
+	CounterOn
+);
+	input	[3:0]Instr;
+	output PCWrite,CounterOn;	
+	
+	assign PCWrite = ~(Instr[0] & ~Instr[1] & ~Instr[2] & ~Instr[3]);
+	assign CounterOn = ~(Instr[0] & ~Instr[1] & ~Instr[2] & ~Instr[3]);
+
+endmodule

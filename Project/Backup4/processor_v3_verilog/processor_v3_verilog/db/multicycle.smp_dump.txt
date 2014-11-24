@@ -1,0 +1,12 @@
+
+State Machine - |multicycle|FSM:Control_Hazard|state
+Name state.c3_data state.c2_data state.c2_stop state.c4_br state.c3_br state.c2_br state.c1 state.reset_s state.c2_data_2 
+state.reset_s 0 0 0 0 0 0 0 0 0 
+state.c1 0 0 0 0 0 0 1 1 0 
+state.c2_br 0 0 0 0 0 1 0 1 0 
+state.c3_br 0 0 0 0 1 0 0 1 0 
+state.c4_br 0 0 0 1 0 0 0 1 0 
+state.c2_stop 0 0 1 0 0 0 0 1 0 
+state.c2_data 0 1 0 0 0 0 0 1 0 
+state.c3_data 1 0 0 0 0 0 0 1 0 
+state.c2_data_2 0 0 0 0 0 0 0 1 1 

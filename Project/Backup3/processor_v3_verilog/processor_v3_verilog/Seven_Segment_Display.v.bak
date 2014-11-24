@@ -1,0 +1,122 @@
+/*****************************************************************************
+ *                                                                           *
+ * Module:       Seven_Segment_Display                                       *
+ * Description:                                                              *
+ *      This module writes data to Seven Segment Displays.                   *
+ *                                                                           *
+ *****************************************************************************/
+
+module Seven_Segment_Display (
+	// Inputs
+	clk,
+	reset_n,
+	
+	register_0,
+	register_1,
+	register_2,
+	register_3,
+
+	register_selection,
+
+	// Bidirectionals
+
+	// Outputs
+	seven_segment_display_0,
+	seven_segment_display_1,
+	seven_segment_display_2,
+	seven_segment_display_3,
+	seven_segment_display_4,
+	seven_segment_display_5,
+	seven_segment_display_6,
+	seven_segment_display_7
+);
+
+
+/*****************************************************************************
+ *                           Parameter Declarations                          *
+ *****************************************************************************/
+
+
+/*****************************************************************************
+ *                             Port Declarations                             *
+ *****************************************************************************/
+// Inputs
+input				clk;
+input				reset_n;
+reg [15:0] register1;
+
+input		[15:0]	register_0;
+input		[15:0]	register_1;
+input		[15:0]	register_2;
+input		[15:0]	register_3;
+input		[1:0]	register_selection;
+
+// Bidirectionals
+
+// Outputs
+output		[6:0]	seven_segment_display_0;
+output		[6:0]	seven_segment_display_1;
+output		[6:0]	seven_segment_display_2;
+output		[6:0]	seven_segment_display_3;
+output		[6:0]	seven_segment_display_4;
+output		[6:0]	seven_segment_display_5;
+output		[6:0]	seven_segment_display_6;
+output		[6:0]	seven_segment_display_7;
+
+always @ (register_selection)
+    begin 
+	if (~register_selection[0] && ~register_selection[1])
+	begin
+    register1<=register_0;
+	end
+    else if (register_selection[0] && ~register_selection[1])
+	begin
+      register1<=register_1;
+	end
+	else if (~register_selection[0] && register_selection[1])
+	begin
+	register1<=register_2;
+	end
+	else 
+	begin
+	 register1<=register_3;
+	end
+end	
+	hex_digits(register1[3:0],seven_segment_display_0);
+	hex_digits(register1[7:4],seven_segment_display_1);
+	hex_digits(register1[11:8],seven_segment_display_2);
+	hex_digits(register1[15:12],seven_segment_display_3);
+
+	
+/*****************************************************************************
+ *                 Internal Wires and Registers Declarations                 *
+ *****************************************************************************/
+
+// Internal Wires
+
+// Internal Registers
+
+// State Machine Registers
+
+/*****************************************************************************
+ *                         Finite State Machine(s)                           *
+ *****************************************************************************/
+
+
+/*****************************************************************************
+ *                             Sequential Logic                              *
+ *****************************************************************************/
+
+
+/*****************************************************************************
+ *                            Combinational Logic                            *
+ *****************************************************************************/
+
+
+/*****************************************************************************
+ *                              Internal Modules                             *
+ *****************************************************************************/
+
+
+endmodule
+
